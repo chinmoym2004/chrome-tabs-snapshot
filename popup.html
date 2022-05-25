@@ -1,0 +1,55 @@
+<!-- <html>
+<body>
+<p id="currentLink">Loading ...</p>
+<hr />
+<ul id="savedLinks"></ul>
+<script type="text/javascript" src="popup.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+  	<head>
+	  	<link href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	    <link rel="stylesheet" href="custom.css">
+	</head>
+	<body>
+	  	<div class="mb-5">
+	  		<ul class="nav nav-tabs" id="myTab" role="tablist">
+			  <li class="nav-item" role="presentation">
+			    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Action</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+			    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">All Snaps</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+			    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">About</button>
+			  </li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+			  		<div align="center">
+			  			<button id="takeasnap" class="btn btn-primary text-center mt-5">Take a Span</button>
+			  			<p class="alert alert-success p-1 m-5" id="message_holder"> Saved </p>
+			  		</div>
+			  </div>
+			  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+			  		<div align="center" id="viewallsnaps_load_parent">
+			  			<button id="viewallsnaps" class="btn btn-success text-center mt-5">Load snaps</button>
+			  		</div>
+			  		<div align="left" id="viewallsnaps_parent">
+
+			  		</div>
+			  </div>
+			  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+				  	<div align="center">
+				  		<p class="alert alert-info p-1 m-5">Developer: Chinmoy Maity</p>
+				  		<p class="alert alert-info p-1 m-5">Email: <a href="chinmoym2004@gmail.com">chinmoym2004@gmail.com</a></p>
+				  	</div>
+			  </div>
+			</div>
+	  	</div>
+    	<script src="/js/jquery-3.6.0.min.js"></script>
+	    <script src="/js/bootstrap.bundle.min.js"></script>
+	    <script src="popup.js"></script>
+  </body>
+</html>

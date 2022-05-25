@@ -1,0 +1,9 @@
+body{
+  width: 500px;
+}
+#takeasnap{
+	font-weight: bold;
+}
+#message_holder{
+  display: none;
+}
