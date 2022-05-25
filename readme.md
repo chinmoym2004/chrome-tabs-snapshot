@@ -10,6 +10,6 @@ I build this extension to help me with keeping track of my tabs
 This helps me a lot to keep my tabs clean and save RAM in system. 
 
 ### Screenshot
-![Take a snap](/span1.png)
-![Load All snap](/span2.png)
-![Open All tabs](/span3.png)
+[Take a snap]: span1.png
+[Load All snap]: span2.png
+[Open All tabs]: span3.png
