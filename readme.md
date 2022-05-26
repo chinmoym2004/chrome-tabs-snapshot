@@ -1,4 +1,4 @@
-## Chrome Tabs snapshot
+## Chrome Tabs snapshot (Extension)
 ***
 As a developer we always like to keep all the tabs open in browser till the work is done or you finished reading a new topic or till you try a hands on blog page. 
 
@@ -8,6 +8,14 @@ I build this extension to help me with keeping track of my tabs
 * Come back and open all or specific tabs from your saved snap.
 
 This helps me a lot to keep my tabs clean and save RAM in system. 
+
+### Platform 
+***
+I'm using this on Chrome & Brave.
+
+### What Next?
+***
+Its really a headache to move my snaped links to differente devices. Will planning a sync mechanism so that you can have access to this 
 
 ### Screenshot
 [![Take a snap][Take-a-snap]](#)
